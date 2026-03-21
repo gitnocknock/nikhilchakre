@@ -76,7 +76,7 @@ export default function Home({ isDark, setIsDark }) {
                     className="fade-in"
                     style={{ animationDelay: '0.8s' }}
                 >
-                    <Link to="/life" className="underline underline-offset-4 decoration-1 text-[1.1rem] transition-opacity duration-200 hover:opacity-50">life</Link>
+                    <Link to="/life" className="underline underline-offset-4 decoration-1 text-[1.1rem] transition-opacity duration-200 hover:opacity-50">misc.</Link>
                 </div>
             </div>
         </>

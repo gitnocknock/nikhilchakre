@@ -33,7 +33,7 @@ function App() {
         <Route path="/" element={<Home isDark={isDark} setIsDark={setIsDark} />} />
         <Route path="/writing" element={<Writing isDark={isDark} setIsDark={setIsDark} />} />
         <Route path="/writing/first-post" element={<FirstPost isDark={isDark} setIsDark={setIsDark} />} />
-        <Route path="/life" element={<Life />} />
+        <Route path="/life" element={<Life isDark={isDark} setIsDark={setIsDark} />} />
         <Route path="/projects" element={<Projects isDark={isDark} setIsDark={setIsDark} />} />
       </Routes>
     </main>
