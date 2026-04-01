@@ -19,7 +19,7 @@ export default function Resume({ isDark, setIsDark }) {
 
             <div className="w-full max-w-3xl text-left mt-32 space-y-10 mb-12">
                 <a 
-                    href="/Nikhil_Chakre_Resume.pdf" 
+                    href={`${import.meta.env.BASE_URL}Nikhil_Chakre_Resume.pdf`} 
                     download
                     className="inline-block border border-current px-6 py-2 rounded mb-6 hover:bg-black/10 dark:hover:bg-white/10 transition-colors"
                 >
@@ -29,7 +29,7 @@ export default function Resume({ isDark, setIsDark }) {
                 {/* Resume PDF Embed */}
                 <div className="w-full h-[85vh] border border-opacity-20 border-current shadow-md overflow-hidden rounded-md bg-white">
                     <object 
-                        data="/Nikhil_Chakre_Resume.pdf" 
+                        data={`${import.meta.env.BASE_URL}Nikhil_Chakre_Resume.pdf`} 
                         type="application/pdf" 
                         className="w-full h-full"
                     >
@@ -37,7 +37,7 @@ export default function Resume({ isDark, setIsDark }) {
                             <p className="mb-4 text-xl font-bold">Your browser does not cleanly support inline PDFs.</p>
                             <p className="mb-6 opacity-80">No worries, you can download it directly instead!</p>
                             <a 
-                                href="/Nikhil_Chakre_Resume.pdf" 
+                                href={`${import.meta.env.BASE_URL}Nikhil_Chakre_Resume.pdf`} 
                                 download
                                 className="inline-block border border-black px-6 py-3 rounded hover:bg-black/10 transition-colors font-bold"
                             >

@@ -6,7 +6,7 @@ export default function Projects({ isDark, setIsDark }) {
         {
             title: "buzzbuzz",
             tech: "react, typescript, python, django, postgresql",
-            image: "/assets/buzzbuzz.png",
+            image: `${import.meta.env.BASE_URL}assets/buzzbuzz.png`,
             bullets: [
                 "made a campus wide map that shows clubs/events that are going on.",
                 "used selenium to scrape the events and clubs and used position stack to plot them on a map."
@@ -15,7 +15,7 @@ export default function Projects({ isDark, setIsDark }) {
         {
             title: "airl chess agent",
             tech: "python, machine learning",
-            image: "/assets/airl.jpg",
+            image: `${import.meta.env.BASE_URL}assets/airl.jpg`,
             bullets: [
                 "adversarial inverse reinforcement learning that uses your chess games to play games like the user.",
                 "used cnn's and behavioral pre-training to ensure that the agent follows similar techniques to users games."
@@ -24,7 +24,7 @@ export default function Projects({ isDark, setIsDark }) {
         {
             title: "flight guard ai",
             tech: "react, typescript, python, next.js, convex",
-            image: "/assets/flightguard.png",
+            image: `${import.meta.env.BASE_URL}assets/flightguard.png`,
             bullets: [
                 "used fetch.ai to find flights and use AeroDataBox to find cheap flights.",
                 "used convex for real time syncing."
@@ -33,7 +33,7 @@ export default function Projects({ isDark, setIsDark }) {
         {
             title: "techdrop",
             tech: "react, typescript, spring boot, postgresql, docker",
-            image: "/assets/techdrop.png",
+            image: `${import.meta.env.BASE_URL}assets/techdrop.png`,
             bullets: [
                 "containerized microservices with docker compose, deploying to aws ec2 across environments.",
                 "automated jenkins ci/cd pipeline to build and push updates with zero-downtime deploys."

@@ -19,7 +19,7 @@ export default function About({ isDark, setIsDark }) {
 
             <div className="w-full max-w-2xl text-left mt-32 space-y-6" style={{ fontFamily: "'Times New Roman', Times, serif" }}>
                 <div className="flex justify-center w-full mb-10">
-                    <img src="/assets/profile.jpg" alt="Nikhil Chakre headshot" className="w-48 md:w-56 rounded-lg shadow-xl object-cover opacity-95" />
+                    <img src={`${import.meta.env.BASE_URL}assets/profile.jpg`} alt="Nikhil Chakre headshot" className="w-48 md:w-56 rounded-lg shadow-xl object-cover opacity-95" />
                 </div>
 
                 <div className="space-y-4 text-[1.1rem] leading-relaxed">
